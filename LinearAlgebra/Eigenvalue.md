@@ -30,7 +30,7 @@
 
 > *Def.* **Characteristic Polynomial**
 >
-> Let $A$ be an $(n\times n)$ matrix. The $n$th-degree polynomial, $p(t)$, given by
+> Let $A$ be an $(n\times n)$ matrix. The $n$-th degree polynomial, $p(t)$, given by
 > $$
 > p(t) = \text{det}(A-tI)
 > $$
@@ -91,6 +91,8 @@ If $\lambda$ is an eigenvalue of $A$, then the eigenvectors corresponding to $\l
 
 If $A$ is an $(n\times n)$ matrix and if some eigenvalue of $A$ has a geometric multiplicity that is less than its algebraic multiplicity, then $A$ will not have a set of $n$ linearly independent eigenvectors. Such a matrix is called defective.
 
+**complete eigenvectors**: $A$ has $n$ distinct eigenvectors.
+
 
 
 > *Def.* Let $A$ be an $(n\times n)$ matrix. If there is an eigenvalue $\lambda$ of $A$ such that the geometric multiplicity of $\lambda$ is less than the algebraic multiplicity of $\lambda$, then $A$ is called a **defective** matrix.
@@ -106,6 +108,15 @@ If $A$ is an $(n\times n)$ matrix and if some eigenvalue of $A$ has a geometric 
 > Then $\{ \mathbf{u}_{1}, \mathbf{u}_{2}, \dots, \mathbf{u}_{k} \}$ is a linearly independent set
 >
 > *Corollary.* Let $A$ be an $(n\times n)$ matrix. If $A$ has $n$ distinct eigenvalues, then $A$ has a set of $n$ linearly independent eigenvectors.
+
+
+
+**The condition that a matrix $A \in R^{n \times n}$ has complete eigenvectors**:
+
+1. The matrix $A$ has $n$ distinct eigenvalues.
+2. The matrix $A$ has some eigenvalues whose algebraic multiplicity $r > 1$, but the geometric multiplicity is equal to the algebraic multiplicity.
+
+If $A$ satisfies any condition above, $A$ has complete eigenvectors. 
 
 
 
